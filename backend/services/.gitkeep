@@ -1,0 +1,7 @@
+// services/ — Phase 2+ will add:
+// evidenceFusionService.js, confidenceService.js, riskService.js,
+// priorityService.js, resourceMatchingService.js, optimizationService.js,
+// routeService.js, shelterService.js, reEvaluationService.js,
+// notificationService.js, auditService.js
+//
+// This file is a placeholder.

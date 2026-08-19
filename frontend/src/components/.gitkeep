@@ -1,0 +1,4 @@
+// components/ — Phase 2+ will add:
+// Shared UI components: Button, Badge, Card, Modal, Spinner, etc.
+// Layout components: Navbar, Sidebar, TopBar
+// Domain components: IncidentCard, ResourceCard, AlertBanner, MapMarker

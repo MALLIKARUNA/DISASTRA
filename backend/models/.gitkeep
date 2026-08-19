@@ -1,0 +1,6 @@
+// models/ — Phase 2+ will add:
+// User.js, Incident.js, Report.js, Evidence.js, Resource.js,
+// Responder.js, Shelter.js, Hospital.js, Recommendation.js,
+// Decision.js, Notification.js, TimelineEvent.js, Alert.js
+//
+// This file is a placeholder.

@@ -1,0 +1,12 @@
+const express = require('express');
+const router = express.Router();
+const { createIncident, getIncidents, getIncident, updateIncident, updateIncidentStatus, assignResponder, getIncidentStats } = require('../controllers/incidentController');
+const { protect, authorize } = require('../middleware/auth');
+router.post('/', protect, authorize('DISPATCHER', 'ADMIN'), createIncident);
+router.get('/', protect, authorize('RESPONDER', 'DISPATCHER', 'ADMIN'), getIncidents);
+router.get('/:id', protect, authorize('RESPONDER', 'DISPATCHER', 'ADMIN'), getIncident);
+router.patch('/:id', protect, authorize('DISPATCHER', 'ADMIN'), updateIncident);
+router.patch('/:id/status', protect, authorize('RESPONDER', 'DISPATCHER', 'ADMIN'), updateIncidentStatus);
+router.patch('/:id/assign', protect, authorize('DISPATCHER', 'ADMIN'), assignResponder);
+router.get('/stats', protect, authorize('DISPATCHER', 'ADMIN'), getIncidentStats);
+module.exports = router;
