@@ -11,7 +11,7 @@ life-critical decision.
 
 ## Quick Start
 
-### Prerequisites
+### ALL Prerequisites
 
 - Node.js 18+
 - MongoDB 6+ (running locally on port 27017)
