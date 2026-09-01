@@ -9,7 +9,7 @@ life-critical decision.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
